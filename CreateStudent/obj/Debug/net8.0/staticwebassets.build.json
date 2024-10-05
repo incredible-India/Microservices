@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1+MpTAjJ9hTuXPo4sXzkmWLLNbzjByWzpVDu6TMT06A=",
+  "Source": "CreateStudent",
+  "BasePath": "_content/CreateStudent",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

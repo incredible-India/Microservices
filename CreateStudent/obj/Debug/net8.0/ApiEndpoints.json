@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CreateStudent.Controllers.CreateStudentController",
+    "Method": "CreatedAt",
+    "RelativePath": "api/create/student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "CreateStudent.Models.Students",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
