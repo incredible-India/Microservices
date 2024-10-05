@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "UpdateStudent.Controllers.UpdateStudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "update/student",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "UpdateStudent.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
