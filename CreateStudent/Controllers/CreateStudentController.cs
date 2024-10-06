@@ -21,7 +21,7 @@ namespace CreateStudent.Controllers
         /// <summary>
         /// Creatinf the new stundent 
         /// </summary>
-        /// <param name="email"></param>
+        ///<param name="student"></param>
         /// <returns></returns>
         [HttpPost]
         [Route("/api/create/student/")]

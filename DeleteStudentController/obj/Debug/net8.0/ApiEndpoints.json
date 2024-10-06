@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "DeleteStudentController.Controllers.DeleteStudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "delete/student",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "DeleteStudentController.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

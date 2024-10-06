@@ -18,8 +18,11 @@ namespace UpdateStudent.Services
             //first check student exist or not
 
             var studentdata = _context.Students.Where(i => i.Email == student.Email);
-            if (studentdata.Any()) { 
-                _context.Students.Update(student);
+            if (studentdata.Any()) {
+                var dataToUpdate = studentdata.FirstOrDefault();
+                dataToUpdate.Name = student.Name;
+                dataToUpdate.Email = student.Email;
+               // _context.Students.Update(student);
                 _context.SaveChanges();
                 return Task.CompletedTask;
             }

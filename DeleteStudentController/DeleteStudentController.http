@@ -1,0 +1,6 @@
+@DeleteStudentController_HostAddress = http://localhost:5003
+
+GET {{DeleteStudentController_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
