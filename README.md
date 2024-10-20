@@ -20,7 +20,28 @@ Client and services can communicate through many different types of communicatio
 
 ## Communication Styles in Microservices
 
+
 A microservice-based application will often use a combination of these communication styles. The most common type is single-receiver communication with a synchronous protocol like HTTP/HTTPS when invoking a regular Web API HTTP service. Microservices also typically use messaging protocols for asynchronous communication between microservices.
 
 ![image](https://github.com/user-attachments/assets/07ac65b7-8e23-4533-bf33-d0836ad2e3e9)
+
+
+## Async Communication
+### Message Broker 
+The message broker does this by translating messages between formal messaging protocols. This allows interdependent services to “talk” with one another directly, even if they were written in different languages or implemented on different platforms
+![image](https://github.com/user-attachments/assets/5e668e71-b6eb-4561-bf5a-5c2e53487e72)
+
+
+## RabbitMQ
+RabbitMQ is an open-source message broker that acts as an intermediary for microservices to exchange data. It uses the Advanced Message Queuing Protocol (AMQP) to ensure reliable and efficient communication. RabbitMQ allows you to decouple services, making them more scalable and resilient.
+![image](https://github.com/user-attachments/assets/404977d7-0731-4676-a66c-25569c529fc0)
+![image](https://github.com/user-attachments/assets/c9d7b60a-ea95-4442-940a-2cf46a3aa952)
+
+
+Management Docker
+<pre>docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management</pre>
+
+
+
+
 
