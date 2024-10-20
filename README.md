@@ -38,6 +38,10 @@ RabbitMQ is an open-source message broker that acts as an intermediary for micro
 ![image](https://github.com/user-attachments/assets/c9d7b60a-ea95-4442-940a-2cf46a3aa952)
 
 
+Management Docker
+<pre>docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management</pre>
+
+
 
 
 
