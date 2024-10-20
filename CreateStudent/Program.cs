@@ -2,6 +2,8 @@ using CreateStudent.Database;
 using CreateStudent.Implemataions;
 using CreateStudent.Services;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.CompilerServices;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,7 @@ builder.Services.AddDbContext<StudentContext>(option =>
 
      option.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
 
 builder.Services.AddScoped<Istudent, stundetServices>();
 builder.Services.AddCors(options =>

@@ -1,0 +1,28 @@
+# Use the official image as a parent image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+# Use SDK image to build the application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copy the project files into the container
+COPY ["./CreateStudent/CreateStudent.csproj", "."]
+
+# Restore the dependencies (via NuGet)
+RUN dotnet restore "./CreateStudent.csproj"
+
+# Copy the rest of the application code
+COPY . .
+
+# Publish the app to the /app directory in the container
+WORKDIR /src
+RUN dotnet publish "./CreateStudent/CreateStudent.csproj" -c Release -o /app/publish
+
+# Final stage: Use the base image to create the runtime container
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "CreateStudent.dll"]

@@ -1,0 +1,17 @@
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\bin\Debug\net8.0\ConsumerOne.exe
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\bin\Debug\net8.0\ConsumerOne.deps.json
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\bin\Debug\net8.0\ConsumerOne.runtimeconfig.json
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\bin\Debug\net8.0\ConsumerOne.dll
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\bin\Debug\net8.0\ConsumerOne.pdb
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.csproj.AssemblyReference.cache
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.AssemblyInfoInputs.cache
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.AssemblyInfo.cs
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.csproj.CoreCompileInputs.cache
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\Consumer.A1AB44F0.Up2Date
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.dll
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\refint\ConsumerOne.dll
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.pdb
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ConsumerOne.genruntimeconfig.cache
+C:\Users\himanshu.y.sharma\Desktop\mspractice\ConsumerOne\obj\Debug\net8.0\ref\ConsumerOne.dll
