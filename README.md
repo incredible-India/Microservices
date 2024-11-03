@@ -44,9 +44,18 @@ Management Docker
 
 
 ## Exchanges
+<ul>
+  <li>
+    Direct  -  default one and match the routing key (create exchange, create queue, bind ques, publish message with routing)
+  </li>
+  <li>
+  Fanout - Send to all queues even routing is given or not
+  </li>
+  <li>
+Topic - Similar to Direct but support wild card for example declare queue routing "abcd.*" and while publish give abcd.erewr
+  </li>  <li>
+Headers - it is having Extra info routing key does not matter for it only arguments should match while binding and publishing
+  </li>  
+</ul>
 
-** Direct  -  default one and match the routing key (create exchange, create queue, bind ques, publish message with routing)
-** Fanout - Send to all queues even routing is given or not
-** Topic - Similar to Direct but support wild card for example declare queue routing "abcd.*" and while publish give abcd.erewr
-** Headers - it is having Extra info routing key does not matter for it only arguments should match while binding and publishing
 
