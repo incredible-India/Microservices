@@ -1,0 +1,17 @@
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\bin\Debug\net8.0\subscriber.exe
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\bin\Debug\net8.0\subscriber.deps.json
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\bin\Debug\net8.0\subscriber.runtimeconfig.json
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\bin\Debug\net8.0\subscriber.dll
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\bin\Debug\net8.0\subscriber.pdb
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.csproj.AssemblyReference.cache
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.AssemblyInfoInputs.cache
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.AssemblyInfo.cs
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.csproj.CoreCompileInputs.cache
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.csproj.Up2Date
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.dll
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\refint\subscriber.dll
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.pdb
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\subscriber.genruntimeconfig.cache
+C:\Users\himanshu.y.sharma\Desktop\Microservices\subscriber\obj\Debug\net8.0\ref\subscriber.dll
