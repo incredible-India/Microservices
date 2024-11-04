@@ -54,7 +54,7 @@ Management Docker
   <li>
 Topic - Similar to Direct but support wild card for example declare queue routing "abcd.*" and while publish give abcd.erewr
   </li>  <li>
-Headers - it is having Extra info routing key does not matter for it only arguments should match while binding and publishing
+Headers - it is having Extra info routing key does not matter for it only arguments should match while binding and publishing (string.Empty)
   </li>  
 </ul>
 
